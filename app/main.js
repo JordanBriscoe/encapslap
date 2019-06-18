@@ -1,9 +1,9 @@
-import TargetController from "./components/target/targeetcontroller";
+import TargetController from "./components/target/TargetController.js"
 
 class App{
     constructor(){
         this.controllers = {
-            targetController: new TargetController
+            targetController: new TargetController()
         }        
     }
 }

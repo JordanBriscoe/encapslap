@@ -11,16 +11,25 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-3">
-                <img class="smile" src="bruised face.jpg" alt="">
+                <img class="smile text-center" src="bruised face.jpg" alt="">
             </div>
             <div class="col-3">
-                    <h1 class="text-center"><b>Encap Slap</b></h1>
+                    <h1 class="text-center red"><b>Encap Slap</b></h1>
             </div>
             <div class="col-3">
-                <img class="smile" src="bruised face.jpg" alt="">
+                <img class="smile text-center" src="bruised face.jpg" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 pt-5">
+                <div>
+                        <button onclick="app.controllers.targetController.attack('punch')" type="button" class="btn btn-danger">Punch</button>
+                        <button onclick="app.controllers.targetController.attack('kick')" type="button" class="btn btn-danger">Kick</button>
+                        <button onclick="app.controllers.targetController.attack('uppercut')" type="button" class="btn btn-danger">UpperCut</button>
+                </div>
             </div>
         </div>
     </div>
@@ -28,6 +37,6 @@
 
     
 
-    <script src="app/main.js"></script>
+    <script src="app/main.js" type="module"></script>
 </body>
 </html>

@@ -1,4 +1,14 @@
+body {
+    background-image: url('MK bcg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .smile {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
+}
+
+.red {
+    color: crimson;
 }

@@ -3,9 +3,11 @@ export default class Target{
         this.name = "Target",
         this.health = 100,
         this.attacks = {
-            slap: 5,
+            punch: 5,
             kick: 10,
-            punch: 15
+            uppercut: 15
         }
+        this.items = [],
+        this.hits = 0
     }
 }
